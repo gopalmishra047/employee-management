@@ -1,0 +1,35 @@
+APIs for Employee CRUD operation:
+
+1. Create Employe:
+   API : http://localhost:8080/employee/create
+   method: POST
+   Request Body : {
+					"name": "XYZ",
+					"salary": 9000,
+					"department": "IT"
+				  }
+				  
+2. Update Employee:
+   API : http://localhost:8080/employee/update
+   method: POST
+   Request Body : {
+					"id": 4,
+					"name": "XYZ",
+					"salary": 9000,
+					"department": "IT"
+				  }
+
+3. Delete Employee:
+   API : http://localhost:8080/employee/delete
+   method: GET
+   Request Body : {}
+   
+4. Get Employee By Id:
+   API : http://localhost:8080/employee/{5}
+   method: GET
+   Request Body : {}   
+   
+3. Get all employees:
+   API : http://localhost:8080/employee/all
+   method: GET
+   Request Body : {}      
